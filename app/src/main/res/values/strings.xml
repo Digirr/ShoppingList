@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lista zakupów</string>
+    <string name="choiceShop">Wybierz sklep</string>
+    <string name="chosenShop">Wybrany sklep: </string>
+    <string name="isInBasket">Czy w koszyku: </string>
+    <string name="add">DODAJ</string>
+    <string name="edit">EDYTUJ</string>
+    <string name="writeItemName">Wpisz nazwę przedmiotu </string>
+    <string name="toastGiveProductName">Musisz wprowadzic nazwe produktu!</string>
+    <string name="toastItemAdded">Pomyślnie dodano przedmiot</string>
+    <string name="toastItemEdited">Pomyślnie edytowano przedmiot</string>
+    <string name="toastDeleteItem">Kliknij element aby usunąć a potem z powrotem przycisk</string>
+    <string name="toastUndeleteItem">Już nie usuniesz kliknięciem</string>
+    <string name="toastListSaved">Lista została ZAPISANA do pliku</string>
+    <string name="toastListDownloaded">Lista została POBRANA z pliku</string>
+    <string name="toastListFileNotExist">Plik nie istnieje</string>
+    <string name="menuAddItem">Dodaj przedmiot</string>
+    <string name="menuDeleteItem">Usuń przedmiot</string>
+    <string name="menuDownloadFromFile">Pobierz z pliku</string>
+    <string name="menuSaveToFile">Zapisz do pliku</string>
+
+
+    <string-array name="shops_array">
+        <item>Lydl</item>
+        <item>Stonka</item>
+        <item>Prawiatan</item>
+        <item>Rabka</item>
+    </string-array>
+</resources>

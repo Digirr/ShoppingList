@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:listSeparatorTextViewStyle"
+        android:text="@string/menuAddItem"/>
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/writeItemName"/>
+
+    <TextView
+        android:id="@+id/chosen_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chosenShop"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/item_choiceShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choiceShop"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border"
+        android:onClick="alertDialog"/>
+
+    <CheckBox
+        android:id="@+id/item_basket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/isInBasket" />
+    <Button
+        android:id="@+id/add_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:text="@string/add" />
+</LinearLayout>
