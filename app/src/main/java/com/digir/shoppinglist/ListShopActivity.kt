@@ -150,7 +150,7 @@ class ListShopActivity : AppCompatActivity() {
     }
     private fun readFile() {
 //        var f : File = File("shoppingList.txt") - not workingi idk
-//        Log.e("EXIST", f.isFile.toString())
+//        Log.e("EXIST", f.isFile.toString())//
         if (fileFlag) { //Using this becouse f.exist() returns always false
             var fIn: FileInputStream = openFileInput("shoppingList.txt")
             var isr: InputStreamReader = InputStreamReader(fIn)
