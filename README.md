@@ -8,6 +8,6 @@ Main View:</br>
 Import, export into file:</br>
 ![image](https://user-images.githubusercontent.com/30196964/119135044-354e6180-ba3e-11eb-8b4f-2387b7b3d673.png)
 
-Adding product:
+<H2>Adding product:</H2></br>
 ![image](https://user-images.githubusercontent.com/30196964/119135314-88c0af80-ba3e-11eb-94f3-a1a012a73bcb.png)
 ![image](https://user-images.githubusercontent.com/30196964/119135366-970ecb80-ba3e-11eb-83f0-6d876b05ca66.png)
